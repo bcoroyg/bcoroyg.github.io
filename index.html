@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <script src="js/js.js"></script>
+    <div>
+      <form id="formulario" action="#">
+        <h1>Formulario</h1>
+        <br />
+        Nombre:<input
+          class="campo"
+          type="text"
+          name="txtNombre"
+          placeholder="Ingrese su nombre."
+        />
+        <br />
+        <br />
+        Edad:<input
+          class="campo"
+          type="text"
+          name="txtEdad"
+          placeholder="Ingrese su edad."
+        />
+        <br />
+        <br />
+        Género:<select class="campo" name="genero">
+          <option value="M">Masculino</option>
+          <option value="F">Femenino</option>
+        </select>
+        <br />
+        <br />
+        Correo Electronico:<input
+          class="campo"
+          type="text"
+          name="txtCorreo"
+          placeholder="Ingrese su correo."
+        />
+        <br />
+        <br />
+        <input
+          class="enviar"
+          onclick="validar()"
+          type="submit"
+          name="btnEnviar"
+          value="Enviar"
+        />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  background-image: url(../img/fondo.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+
+.campo {
+  font-size: 18px; /*TAMAÑO DE TEXTO*/
+  border: solid 1px; /*BORDE DEL TEXTO*/
+  border-radius: 2px;
+  width: 98%; /*ANCHO*/
+  height: 30px;
+}
+.campo:focus {
+  color: green;
+  font-size: 18px;
+}
+
+#formulario {
+  margin: 35px auto;
+  width: 300px;
+  background-color: white;
+  padding: 20px 25px 35px 25px;
+  border-radius: 10px;
+}
+/*BOTON ENVIAR*/
+.enviar {
+  background-color: #246355;
+  display: block;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 0px auto;
+  font-size: 18px;
+}
+
+.enviar:hover {
+  background-color: #4caf50;
+}
+
+.enviar:active {
+  background-color: green;
+}
